@@ -1,10 +1,49 @@
-.root {
+:root {
   /* кольори */
   --color-text-primary: #626262;
   --color-text-category: #b4ad9e;
   --color-text-navigation: #7d7d7d;
   --color-text-hover: #03a9f4;
   /* шрифти */
-  font-family: "Playfair Display", serif;
+  --font-primary: "Playfair Display", serif;
   --font-secondary: "Ubuntu", serif;
+}
+body {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--color-text-primary);
+}
+
+.nav-link {
+  color: var(--color-text-navigation);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--color-text-hover);
+}
+
+.post-category {
+  font-family: var(--font-secondary);
+  color: var(--color-text-category);
+  font-weight: 300;
+}
+.card-title {
+  font-size: 30px;
+}
+
+.gallery-button {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  border: 1px solid var(--color-text-primary);
+  background-color: transparent;
+  padding: 20px 50px;
+}
+
+.gallery-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
