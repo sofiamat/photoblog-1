@@ -24,6 +24,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* Шапка сайту */
+.header {
+  padding-top: 70px;
+}
 
 .nav-link {
   color: var(--color-text-navigation);
@@ -33,14 +37,30 @@ body {
 .nav-link:hover {
   color: var(--color-text-hover);
 }
+/* Секція Галерея */
+.gallery {
+  padding-top: 90px;
+  padding-bottom: 65px;
+}
+
+.gallery-list {
+  margin-bottom: 95px;
+}
+
+.post-photo {
+  margin-bottom: 60px;
+}
 
 .post-category {
   font-family: var(--font-secondary);
   color: var(--color-text-category);
   font-weight: 300;
+  margin-bottom: 30px;
+  display: inline-block;
 }
-.card-title {
+.post-title {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .gallery-button {
